@@ -4,7 +4,6 @@ project(OpenGLPlayground)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(3rd/glfw)
-# add_subdirectory(3rd/glad)
 
 include_directories(include)
 include_directories(3rd/glfw/include)
